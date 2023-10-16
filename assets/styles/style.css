@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.chessboard {
+    width: 1520px;
+    height: 1520px;
+    border: 1px solid #ff0000;
+}
+
+.cell {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+
+.cell:nth-child(odd){
+    background-color: #000000;
+}
+
+.cell:nth-child(even){
+    background-color: #ffffff;
+}
+
+
+/* .bg_b {
+    background-color: #000000;
+}
+
+.bg_w {
+    background-color: #ffffff;
+} */
